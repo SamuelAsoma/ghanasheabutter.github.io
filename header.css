@@ -1,0 +1,99 @@
+/* Global styles */
+*, *::before, *::after {
+  box-sizing: border-box; 
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+
+.container {
+  width: 90%;
+  /* max-width: 800px; */
+  margin: 0 auto;
+}
+
+h3 {
+  margin: 0;
+  padding-top: 0.5em;
+}
+ion-icon {
+  font-size: 32px;
+}
+
+/* Header section styles */
+header {
+  background-color: #ffeecc;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 0.125rem;
+  
+}
+.nav {
+  display: flex;
+  flex-direction: column;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+nav li {
+  display: block;
+}
+
+li:not(:last-child) {
+  border-bottom: none;
+}
+
+li:not(:last-child) {
+  border-bottom: 1px dotted #663300;
+}
+
+nav a {
+  font-size: 0.92rem;
+  color: #663300;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #ffffff;
+  font-size: bold;
+  background-color: rgb(152, 151, 151);
+  padding: 0.25rem 0.43rem;
+  border-radius: 4px;
+}
+
+/* Media queries for large screens */
+@media screen and (min-width: 768px) {
+  .nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+  }
+  nav ul {
+    flex-direction: row;
+    gap: 15px;
+  }
+   
+  li:not(:last-child) {
+    border-bottom: none;
+  }
+
+  nav a {
+    font-size: 1.10rem;
+  }
+  
+}

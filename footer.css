@@ -1,0 +1,91 @@
+/* Footer Styles */
+footer {
+  background-color: #663300;
+  color: #fff;
+  padding: 1.25em 0;
+  flex-shrink: 0;
+}
+
+
+
+.footer-col h4 {
+  font-size: 1.125rem;
+  margin-top: 0;
+  margin-bottom: 0.9375rem;
+  color: #fff;
+}
+
+.footer-col ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-col ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-col ul li a:hover {
+  text-decoration: underline;
+}
+
+.follow-us h4 {
+  margin-top: 0;
+}
+
+.social-media {
+  display: flex;
+  gap: 0.625em;
+}
+
+.footer-col.social-media li {
+  margin-bottom: 0.625em;
+  background-color: #333;
+}
+
+.social-media ion-icon {
+  background-color: #ffeecc;
+  border-radius: 5px;
+}
+
+.social-media li a:hover {
+  opacity: 0.8;
+}
+
+.social-media ion-icon[name="logo-facebook"] {
+  color: #3b5998;
+}
+
+.social-media ion-icon[name="logo-instagram"] {
+  color: #e4405f;
+}
+
+.social-media ion-icon[name="logo-tiktok"] {
+  color: #000000;
+}
+
+.follow-us ul {
+  list-style-type: none;
+  padding: 0;
+  flex-direction: row;
+
+}
+
+.largeScreen-col {
+  display: flex;
+  justify-content: space-between;
+  gap: 1.25rem;
+  flex-wrap: wrap;
+}
+
+.footer-p {
+  text-align: center;
+  padding: 0;
+}
+
+
+
+
+
+
+
